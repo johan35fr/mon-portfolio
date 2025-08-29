@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Johan Penhouet</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos de moi</a></li>
+                <li><a href="#education">Formations</a></li>
+                <li><a href="#tools">Logiciels utilisés</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- ✅ Ajout du bouton hamburger -->
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <div id="about-text">
+            <h2>À propos de moi</h2>
+            <p>Salut, moi c’est Johan, j’ai 27 ans. 
+               Je suis une personne motivée, curieuse et toujours prête à apprendre. 
+               J’aime explorer de nouveaux domaines et relever des défis. En dehors du travail, 
+               je m’intéresse au militaria, aux nouvelles technologies, aux jeux vidéo, au sport, à la photographie et aux voyages. 
+               Aujourd’hui, mon objectif est de continuer à évoluer et mettre mon énergie au service de nouveaux projets.
+            </p>
+        </div>
+        <img src="assets/img/jpg/IMG_4869.JPG" alt="setup dev">
+    </section>
+
+    <!-- Section Formation -->
+    <section id="education">
+        <h2>Formation et Diplôme</h2>
+        <ul>
+            <li class="formation">
+                <img src="assets/img/svg/graduation-cap-solid-full 01 Plan de travail 1.svg" alt="Icone PMD" class="formation-icon">
+                <span class="annee">2017</span>
+                <span class="diplome">Préparation Militaire Débutant</span>
+                <span class="ecole">RICM</span>
+                <span class="lieux">Poitiers</span>
+            </li>
+
+            <li class="formation">
+                <img src="assets/img/svg/graduation-cap-solid-full 01 Plan de travail 1.svg" alt="Icone Bac" class="formation-icon">
+                <span class="annee">2017</span>
+                <span class="diplome">Baccalauréat S.A.P.A.T</span>
+                <span class="ecole">Lycée Saint Yves</span>
+                <span class="lieux">Bain De Bretagne</span>
+            </li>
+
+            <li class="formation">
+                <img src="assets/img/svg/graduation-cap-solid-full 01 Plan de travail 1.svg" alt="Icone BEP" class="formation-icon">
+                <span class="annee">2015</span>
+                <span class="diplome">BEP Agricole Service à la personne</span>
+                <span class="ecole">Lycée Saint Yves</span>
+                <span class="lieux">Bain De Bretagne</span>
+            </li>
+        </ul>
+    </section>
+     
+    <!-- Section Logiciels -->
+    <section id="tools">
+        <h2>Logiciels utilisés</h2>
+        <ul class="tools-icons">
+            <li class="tool-item" id="word" title="Microsoft Word">
+                <img src="assets/img/png/Microsoft_Office_Word_Logo_64px.png" alt="Microsoft Word">
+                <span class="tool-name word">Word</span>
+            </li>
+
+            <li class="tool-item" id="excel" title="Microsoft Excel">
+                <img src="assets/img/png/Microsoft_Office_Excel_Logo_64px.png" alt="Microsoft Excel">
+                <span class="tool-name excel">Excel</span>
+            </li>
+
+            <li class="tool-item" id="powerpoint" title="Microsoft Powerpoint">
+                <img src="assets/img/png/Microsoft_Office_PowerPoint_Logo_64px.png" alt="Microsoft Powerpoint">
+                <span class="tool-name powerpoint">Powerpoint</span>
+            </li>
+
+            <li class="tool-item" id="lightroom" title="Adobe Lightroom">
+                <img src="assets/img/png/photoshop-lightroom.png" alt="Adobe Lightroom">
+                <span class="tool-name lightroom">Lightroom</span>
+            </li>
+
+            <li class="tool-item" id="github" title="Github">
+                <img src="assets/img/png/1608908_github_icon.png" alt="Github">
+                <span class="tool-name github">Github</span>
+            </li>
+
+            <li class="tool-item" id="vscode" title="Visual Studio Code">
+                <img src="assets/img/png/icons8-code-studio-visuel-2019-64.png" alt="Visual Studio Code">
+                <span class="tool-name vscode">Visual Studio Code</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section Expériences -->
+    <section id="experience">
+        <h2>Expériences</h2>
+        <ul class="experience-list">
+            <li class="experience-item" id="fullstack-2023">
+                <div class="experience-icon">
+                    <img src="assets/img/svg/user-tie-solid-full 01 Plan de travail 1.svg" alt="Icone formation" class="experience-icon">
+                </div>
+                <div class="experience-content">
+                    <span class="date">Août 2023 à aujourd'hui</span>
+                    <span class="metier">Formation développeur web full-stack</span>
+                    <span class="entreprise">Studi - À domicile</span>
+                    <span class="contrat">Contrat de formation</span>
+                    <p>Conception de site web en code HTML, CSS.</p>
+                </div>
+            </li>
+
+            <li class="experience-item" id="itm-2022">
+                <div class="experience-icon">
+                    <img src="assets/img/svg/user-tie-solid-full 01 Plan de travail 1.svg" alt="Icone formation" class="experience-icon">
+                </div>
+                <div class="experience-content">
+                    <span class="date">Avril 2022 à Septembre 2023</span>
+                    <span class="metier">Préparateur de commande</span>
+                    <span class="entreprise">I.T.M logistique - Grand Fougeray</span>
+                    <span class="contrat">CDD intérimaire</span>
+                    <p>Préparation de commande à la vocale - Entretiens de notre zone de travail - Mise à plat - filmage de palette - mise à quai.</p>
+                </div>
+            </li>
+ma
+            <li class="experience-item" id="leclerc-2019">
+                <div class="experience-icon">
+                    <img src="assets/img/svg/user-tie-solid-full 01 Plan de travail 1.svg" alt="Icone formation" class="experience-icon">
+                </div>
+                <div class="experience-content">
+                    <span class="date">Juillet 2019 à Mars 2022</span>
+                    <span class="metier">Employé libre service</span>
+                    <span class="entreprise">E.leclerc - Bain De Bretagne</span>
+                    <span class="contrat">CD1</span>
+                    <p>Mise en rayon - Facing - Rotation de produits - gestion des commandes - service client - livraison.</p>
+                </div>
+            </li>
+
+            <li class="experience-item" id="itm-2018">
+                <div class="experience-icon">
+                    <img src="assets/img/svg/user-tie-solid-full 01 Plan de travail 1.svg" alt="Icone formation" class="experience-icon">
+                </div>
+                <div class="experience-content">
+                    <span class="date">Septembre 2018 à Juin 2019</span>
+                    <span class="metier">Préparateur de commande</span>
+                    <span class="entreprise">I.T.M logistique - Grand Fougeray</span>
+                    <span class="contrat">CDD intérimaire</span>
+                    <p>Préparation de commande à la vocale - Entretiens de notre zone de travail - Mise à plat - filmage de palette - mise à quai.</p>
+                </div>
+            </li>
+
+            <li class="experience-item" id="stef-2018">
+                <div class="experience-icon">
+                    <img src="assets/img/svg/user-tie-solid-full 01 Plan de travail 1.svg" alt="Icone formation" class="experience-icon">
+                </div>
+                <div class="experience-content">
+                    <span class="date">Mars 2018 à Août 2018</span>
+                    <span class="metier">Préparateur de commande</span>
+                    <span class="entreprise">Stef - Bain De Bretagne</span>
+                    <span class="contrat">CDD intérimaire</span>
+                    <p>Préparation de commande au scan - entretien de notre zone de travail - filmage de palette - mise à quai.</p>
+                </div>
+            </li>
+
+            <li class="experience-item" id="ch-2016">
+                <div class="experience-icon">
+                    <img src="assets/img/svg/user-tie-solid-full 01 Plan de travail 1.svg" alt="Icone formation" class="experience-icon">
+                </div>
+                <div class="experience-content">
+                    <span class="date">Juillet 2016 à Février 2018</span>
+                    <span class="metier">Remplacement service hospitalier</span>
+                    <span class="entreprise">Centre hospitalier - Grand Fougeray</span>
+                    <span class="contrat">CDD</span>
+                    <p>Aide à la personne - Service en salle - plonge - organisation des repas.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul class="contact-buttons">
+            <li>
+                <a href="mailto:penhouetjohan@gmail.com" id="email" class="contact-icon" title="Envoyer un email">
+                    <img src="assets/img/png/gmail.png" alt="Email">
+                    <span class="tool-name email">Email</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/johan-penhouet-6ab7ba189/" id="linkedin" class="contact-icon" title="Voir mon profil LinkedIn">
+                    <img src="assets/img/png/linkedin.png" alt="LinkedIn">
+                    <span class="tool-name linkedin">Linkedin</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com/jo_Penshum35" id="x" class="contact-icon" title="Voir mon profil X">
+                    <img src="assets/img/png/twitter.png" alt="X">
+                    <span class="tool-name x">X</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/pen_joh_schum/" id="instagram" class="contact-icon" title="Voir mon profil Instagram">
+                    <img src="assets/img/png/instagram.png" alt="Instagram">
+                    <span class="tool-name instagram">Instagram</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy;2025 Johan Penhouet - Mon Portfolio</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
